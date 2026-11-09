@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DisputeDefender</title>
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header>
+    <h1>DisputeDefender</h1>
+    <p class="tagline">AI agent that fights PayPal disputes for small sellers</p>
+  </header>
+
+  <main>
+    <section id="list-panel">
+      <h2>Open Disputes</h2>
+      <div id="dispute-list">Loading…</div>
+    </section>
+
+    <section id="detail-panel" class="hidden">
+      <button id="back-btn">← Back to list</button>
+      <div id="detail-content"></div>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

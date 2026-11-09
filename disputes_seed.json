@@ -1,0 +1,35 @@
+[
+  {
+    "dispute_id": "PP-D-1001",
+    "reason": "MERCHANDISE_OR_SERVICE_NOT_RECEIVED",
+    "status": "OPEN",
+    "dispute_amount": {"currency_code": "USD", "value": "45.00"},
+    "create_time": "2026-11-07T10:00:00Z",
+    "seller_response_due_date": "2026-11-14T10:00:00Z",
+    "allowed_response_options": ["PROVIDE_PROOF_OF_SHIPMENT", "REFUND", "ACCEPT_CLAIM"],
+    "buyer": {"name": "Test Buyer", "email": "buyer@example.com"},
+    "transaction": {"transaction_id": "TXN-1001", "capture_id": "CAP-1001"}
+  },
+  {
+    "dispute_id": "PP-D-1002",
+    "reason": "MERCHANDISE_OR_SERVICE_NOT_AS_DESCRIBED",
+    "status": "OPEN",
+    "dispute_amount": {"currency_code": "USD", "value": "120.00"},
+    "create_time": "2026-11-06T14:30:00Z",
+    "seller_response_due_date": "2026-11-13T14:30:00Z",
+    "allowed_response_options": ["PROVIDE_EVIDENCE", "REFUND", "ACCEPT_CLAIM"],
+    "buyer": {"name": "Another Buyer", "email": "buyer2@example.com"},
+    "transaction": {"transaction_id": "TXN-1002", "capture_id": "CAP-1002"}
+  },
+  {
+    "dispute_id": "PP-D-1003",
+    "reason": "UNAUTHORIZED_TRANSACTION",
+    "status": "OPEN",
+    "dispute_amount": {"currency_code": "USD", "value": "30.00"},
+    "create_time": "2026-11-08T09:15:00Z",
+    "seller_response_due_date": "2026-11-15T09:15:00Z",
+    "allowed_response_options": ["PROVIDE_EVIDENCE", "REFUND", "ACCEPT_CLAIM"],
+    "buyer": {"name": "Third Buyer", "email": "buyer3@example.com"},
+    "transaction": {"transaction_id": "TXN-1003", "capture_id": "CAP-1003"}
+  }
+]
